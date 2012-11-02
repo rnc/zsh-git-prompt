@@ -97,6 +97,4 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✔"
 ZSH_THEME_GIT_PROMPT_STASHED="%{$fg[yellow]%}⚑"
 
 # Enable/Disable portions of the prompt (set to 1 to enable)
-ZSH_THEME_GIT_PROMPT_STASHED_ACTIVE=0
-
-
+[[ -z "$ZSH_THEME_GIT_PROMPT_STASHED_ACTIVE" ]] && export ZSH_THEME_GIT_PROMPT_STASHED_ACTIVE=1
